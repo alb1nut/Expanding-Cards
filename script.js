@@ -1,18 +1,18 @@
-// to call all panel class
-const panels = document.querySelectorAll('.panel')
+// to call all card class
+const cards = document.querySelectorAll('.card')
 
-// to loop through each panel item to apply active class
-panels.forEach((panel)=> {
+// to loop through each card item to apply active class
+cards.forEach((card)=> {
    
-    panel.addEventListener('click', () =>{
+    card.addEventListener('click', () =>{
         removeActiveClass()
-        panel.classList.add('active')
+        card.classList.add('active')
     })
 })
 
 // Function for removing a class
 function removeActiveClass(){
-   panels.forEach((panel)=>{
-       panel.classList.remove('active')
+   cards.forEach((card)=>{
+       card.classList.remove('active')
    } )
 }
