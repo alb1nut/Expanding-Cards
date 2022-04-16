@@ -58,6 +58,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    body {
+        height: 70vh;
+    }
   .container {
     width: 100vw;
   }
